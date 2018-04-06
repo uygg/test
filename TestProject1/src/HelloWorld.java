@@ -17,6 +17,8 @@ public class HelloWorld {
 		System.out.println(eco);
 		char a1='A';
 		System.out.println(a1);
+		char t5='T';
+		System.out.println(t5);
 		int nu1=12345;
 		System.out.println(nu1);
 		boolean atari=true;
@@ -39,6 +41,9 @@ public class HelloWorld {
 		System.out.println(yrt);
 		double xrt=(double)10/3;
 		System.out.println(xrt);
+		int eer=7%3;
+		System.out.println(eer);
+		
 
 
 
