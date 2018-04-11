@@ -93,6 +93,19 @@ public class HelloWorld {
 		int E=21;if(E>22){System.out.println("X");}else if(E==22){System.out.println("Y");}else{System.out.println("Z");}
         int r=10;if(r==10){System.out.println("X");}else if(r>=12){System.out.println("Y");}else{System.out.println("Z");}
 	    int N=111;if(N>100){System.out.println("大吉");}else if(N==100){System.out.println("中吉");}else if(N>100){System.out.println("吉");}else{System.out.println("凶");}
+	    int j=2;
+	    switch(j){case 1:System.out.println("さしすせそ");break;case 2:System.out.println("たちつてと");break;}
+	    int ii=8;switch(ii){case 1:System.out.println("だ");break;case 3:System.out.println("ぱ");break;default:System.out.println("なし");}
+	    String t1="赤";switch(t1){case "赤":System.out.println("赤組");break;case "白":System.out.println("白組");break;}
+	    String[] name=new String[3];name[0]="田中";name[1]="高橋";name[2]="斉藤";System.out.println(name[0]);
+	    String[] nn={"田中","高橋","斉藤"};System.out.println(nn[2]);
+	    char[] c1={'x','y','z'};System.out.println(c1[0]);System.out.println(c1[1]);
+	    int[]po={1,5,9};System.out.println(po[0]);System.out.println(po[1]);
+	    po[2]=8;System.out.println(po[2]);
+	    nn[1]="山本";System.out.println(nn[1]);
+	    String[][]country={{"日本","タイ"},{"アメリカ","ブラジル"},{"フランス","ロシア"}};System.out.println(country[0][0]);
+	    System.out.println(country[1][1]);System.out.println(country[2][0]);
+	    
 	
 	
 	}
