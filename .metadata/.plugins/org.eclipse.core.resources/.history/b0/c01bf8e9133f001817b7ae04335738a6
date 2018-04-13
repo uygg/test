@@ -120,11 +120,8 @@ public class HelloWorld {
 	    int g=2;while(g<=6){System.out.println(g);g+=2;}System.out.println(".");
 	    int G=10;while(G>=4){System.out.println(G);G-=3;}
 	    int STAR=1;while(STAR<=5){System.out.println("★");STAR++;}
+	    int UT1=0;do{System.out.println(UT1);UT1++;}while(UT1<5);
 	    
-	    int UT1=0;do{System.out.println(UT1);UT1++;}while(UT1<5);System.out.println(".");
-	    int UT3=5;do{System.out.println(UT3);UT3--;}while(UT3>0);System.out.println(".");
-	    int U4=2;do{System.out.println(U4);U4+=2;}while(U4<=8);System.out.println(".");
-	    int wada=9;do{System.out.println(wada);wada-=3;}while(wada>=1);
 	    
 	
 	}
