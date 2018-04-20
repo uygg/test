@@ -12,14 +12,19 @@ public String name = null;
 public int age = 0;
 public String phoneNumber = null;
 public String address = null;
-public void talk(){
-System.out.println(this.name + "が話す");
+public Person(){}
+public Person(String name,int age){
+	this.name="saburo";
+	this.age=0;
 }
-public void walk(){
-System.out.println(this.name + "が歩く");
+
+public Person(int age){
+this.name="名前なし";
+this.age=25;
 }
-public void run(){
-System.out.println(this.name + "が走る");
+public Person(int age,String name){
+	this.name="hanako";
+	this.age=17;
 }
 
 }
