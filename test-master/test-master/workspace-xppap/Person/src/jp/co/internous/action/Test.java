@@ -20,7 +20,13 @@ public class Test {
 	System.out.println(jiro.name);
 	System.out.println(jiro.age);
 	
+	Person kou= new Person(25);
+	System.out.println(kou.name);
+	System.out.println(kou.age);
 	
+	Person hana= new Person(17,"hana");
+	System.out.println(hana.name);
+	System.out.println(hana.age);
 
 		}
 
